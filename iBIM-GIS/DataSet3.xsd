@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet3" targetNamespace="http://tempuri.org/DataSet3.xsd" xmlns:mstns="http://tempuri.org/DataSet3.xsd" xmlns="http://tempuri.org/DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet3" msprop:Generator_UserDSName="DataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblmayorsignature" msprop:Generator_TableClassName="tblmayorsignatureDataTable" msprop:Generator_TableVarName="tabletblmayorsignature" msprop:Generator_RowChangedName="tblmayorsignatureRowChanged" msprop:Generator_TablePropName="tblmayorsignature" msprop:Generator_RowDeletingName="tblmayorsignatureRowDeleting" msprop:Generator_RowChangingName="tblmayorsignatureRowChanging" msprop:Generator_RowEvHandlerName="tblmayorsignatureRowChangeEventHandler" msprop:Generator_RowDeletedName="tblmayorsignatureRowDeleted" msprop:Generator_RowClassName="tblmayorsignatureRow" msprop:Generator_UserTableName="tblmayorsignature" msprop:Generator_RowEvArgName="tblmayorsignatureRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MayorSignature" msprop:Generator_ColumnVarNameInTable="columnMayorSignature" msprop:Generator_ColumnPropNameInRow="MayorSignature" msprop:Generator_ColumnPropNameInTable="MayorSignatureColumn" msprop:Generator_UserColumnName="MayorSignature" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="MayorID" msprop:Generator_ColumnVarNameInTable="columnMayorID" msprop:Generator_ColumnPropNameInRow="MayorID" msprop:Generator_ColumnPropNameInTable="MayorIDColumn" msprop:Generator_UserColumnName="MayorID" type="xs:string" minOccurs="0" />
+              <xs:element name="MayorName" msprop:Generator_ColumnVarNameInTable="columnMayorName" msprop:Generator_ColumnPropNameInRow="MayorName" msprop:Generator_ColumnPropNameInTable="MayorNameColumn" msprop:Generator_UserColumnName="MayorName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dsetimage" msprop:Generator_TableClassName="dsetimageDataTable" msprop:Generator_TableVarName="tabledsetimage" msprop:Generator_TablePropName="dsetimage" msprop:Generator_RowDeletingName="dsetimageRowDeleting" msprop:Generator_RowChangingName="dsetimageRowChanging" msprop:Generator_RowEvHandlerName="dsetimageRowChangeEventHandler" msprop:Generator_RowDeletedName="dsetimageRowDeleted" msprop:Generator_UserTableName="dsetimage" msprop:Generator_RowChangedName="dsetimageRowChanged" msprop:Generator_RowEvArgName="dsetimageRowChangeEvent" msprop:Generator_RowClassName="dsetimageRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Image1" msprop:Generator_ColumnVarNameInTable="columnImage1" msprop:Generator_ColumnPropNameInRow="Image1" msprop:Generator_ColumnPropNameInTable="Image1Column" msprop:Generator_UserColumnName="Image1" type="xs:string" minOccurs="0" />
+              <xs:element name="Image2" msprop:Generator_ColumnVarNameInTable="columnImage2" msprop:Generator_ColumnPropNameInRow="Image2" msprop:Generator_ColumnPropNameInTable="Image2Column" msprop:Generator_UserColumnName="Image2" type="xs:string" minOccurs="0" />
+              <xs:element name="Image3" msprop:Generator_ColumnVarNameInTable="columnImage3" msprop:Generator_ColumnPropNameInRow="Image3" msprop:Generator_ColumnPropNameInTable="Image3Column" msprop:Generator_UserColumnName="Image3" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
